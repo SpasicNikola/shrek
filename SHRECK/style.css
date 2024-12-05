@@ -1,0 +1,22 @@
+header{
+    text-align: left;
+}
+h2{
+    margin: 0px;
+}
+p2{
+    font-weight: bold;
+}
+.container {
+    display: flex; /* Enables flexbox layout */
+    gap: 10px; /* Adds a 10px gap between the articles */
+}
+
+/* Styling for individual articles (assuming these are in .article) */
+.fo1 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px; /* Adjust the width to fit three articles in a row */
+    background-color: yellow;
+}
+
